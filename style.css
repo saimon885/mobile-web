@@ -1,0 +1,455 @@
+body{
+    background-color: #ddd;
+}
+.container{
+    max-width: 100%;
+    overflow: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 22px rgb(4, 4, 4);
+    display: flex;
+    height: 500px;
+    position: relative;
+    
+}
+.logo img{
+    margin-top: -30px;
+    padding: 0;
+    width: 200px;
+}
+.brand-name{
+     margin-top: 50px;
+     margin-left: 50px;
+     font-size: 30px;
+     color: rgb(5, 5, 100);
+}
+.brand-name h1{
+    font-size: 40px;
+    text-shadow: 1px 2px 3px rgb(82, 80, 80);
+}
+.menu{
+    margin-top: 55px ;
+    margin-left: 100px;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 2px 40px;
+    justify-content: end;
+    font-weight: bold;
+    color: rgb(5, 5, 100);
+    cursor: pointer;
+}
+.menu a:hover{
+    background-color: #11fbfb;
+    transition: ease 0.5s;
+    border: 3px solid rgb(13, 125, 159);
+    color: black;
+}
+.btn{
+    margin-top: 65px;
+    margin-left: 70px;
+}
+.btn button{
+    border: none;
+    outline: none;
+}
+.btn button a{
+    padding: 20px;
+    border-radius: 5rem;
+    background-color: rgb(33, 33, 237);
+    color: white;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: help;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn a:hover{
+    background-color: rgb(250, 20, 231);
+    color: rgb(5, 5, 131);
+    transition: ease 0.5s;
+}
+.left-side{
+    margin-left: 50px;
+    margin-top: 200px;
+    position: absolute;
+    width: 50%;
+}
+.navbar .left-btn{
+    padding: 15px 30px;
+    font-size: 15px;
+    background-color:rgb(7, 7, 246) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.left-btn:hover{
+    background-color: rgb(255, 80, 237);
+    transition: 0.5s ease;
+}
+.navbar .right-btn{
+    padding: 15px 30px;
+    font-size: 15px;
+    background-color:rgb(7, 7, 246) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-left: 30px;
+}
+.right-btn:hover{
+    background-color: rgb(255, 80, 237);
+    transition: 0.5s ease;
+}
+.my-img{
+    margin-left: 1000px;
+    margin-top: 20px;
+    width: 50%;
+    position: absolute;
+    float: right;
+}
+.my-img img{
+    width: 350px;
+}
+.menu1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.part1{
+    margin-top: 25px;
+}
+.part1 img{
+    width: 500px;
+    padding: 0 80px;
+}
+.menu2{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: white;
+    height: 130px;
+    margin-top: 60px;
+    text-align: center;
+    padding: 25px;
+    position: relative;
+}
+.div{
+    width: 200px;
+    height: 80px;
+    margin-left: 25px;
+    background-color: rgb(96, 96, 255);
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.menu2 .div:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.div h1{
+    font-size: 50px;
+}
+.div p{
+    font-size: 10px;
+    font-weight: bold;
+}
+.menu3{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+
+}
+h2{
+    text-align:center;
+    font-size: 45px;
+
+}
+.right--side{
+    width: 40%;
+}
+.right--side img{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgb(49, 49, 49,0.2);
+    display: inline;
+}
+.left--side{
+    margin-left: 30px;
+    float: right;
+    width: 900px;
+    margin-top: 0;
+}
+.left--side h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.left--side h2{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family:serif;
+    text-decoration: underline;
+}
+.left--side p{
+    margin-top: 10px;
+    padding: 5px;
+    text-align: justify;
+    font-size: 20px;
+}
+.menu4{
+    width: 100%;
+    margin-top: 40px;
+    background-color: white;
+    height: 200px;
+}
+.menu4 h2{
+    margin-top: 20px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.menu4 .row{
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #aeaaaa;
+    border-radius: 30px;
+    box-shadow: 2px 4px 8px rgb(13, 13, 13,0.9),
+    -2px -4px 8px rgb(13, 13, 13,0.9);
+}
+.menu5{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+} 
+.rightside{
+    width: 50%;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+.rightside p{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.rightside .icon{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.rightside .icon i{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+.leftside{
+    width: 50%;
+}
+.leftside img{
+    width: 620px;
+    height: 450px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.menu6{
+    width: 100%;
+    background-color: rgb(176, 173, 173);
+    display: flex;
+    height: 120px;
+    margin-top: 20px;
+}
+.menu6 .part1{
+    margin-left: 20px;
+    width: 50%;
+}
+.menu6 .part1 p{
+    font-size: 20px;
+    padding: 5px;
+}
+.menu6 .part1 a{
+    color: black;
+    font-weight: bold;
+}
+.menu6 .part2{
+    width: 50%;
+    text-align: center;
+    margin-top:45px;
+}
+.menu6 .part2 a{
+    font-size: 25px;
+    padding: 50px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 1020px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .logo img {
+        width: 250px;
+        margin: -20px auto;
+    }
+
+    .brand-name {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .menu {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+    .menu a {
+        width:600px;
+        font-size: 20px;
+        padding: 10px;
+        display: block;
+    }
+
+    .btn {
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    .left-side {
+        width: 100%;
+        margin-top: 20px;
+        margin: auto;
+        position: static;
+        text-align: center;
+    }
+    .left-side p{
+        font-size: 20px;
+        text-align:center;
+    }
+    .my-img {
+        margin: 20px auto;
+        width: 100%;
+        text-align: center;
+        position: static;
+    }
+    .navbar .brand-name h1{
+        font-size: 45px;
+    }
+
+    .my-img img {
+        width: 80%;
+    }
+
+    .part1 img{
+        margin-top: 20px;
+    }
+
+    .menu2 {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .div {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .menu3 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .right--side, .left--side {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .right--side img {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .left--side h3, .left--side h4, .left--side p {
+        font-size: 18px;
+    }
+
+    .menu4 {
+        height: 220px;
+        padding: 20px 0;
+    }
+
+    .menu4 .row {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .menu5 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu5 .rightside p{
+        text-align: justify;
+    }
+
+    .rightside, .leftside {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .leftside img {
+        margin-top: 40px;
+        width: 90%;
+        height: auto;
+    }
+
+    .menu6 {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .menu6 .part1, .menu6 .part2 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .menu6 .part2 a  {
+        font-size: 20px;
+        padding: 10px;
+        display: block;
+    }
+}
